@@ -1,0 +1,31 @@
+.collapse__button {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #276bd2;
+  cursor: pointer;
+}
+
+.collapse__button:hover,
+.collapse__button:focus {
+  outline: 5px solid #9dc7f9;
+}
+
+.collapse__content {
+  border: 1px solid #e8e8e8;
+  max-height: 500px;
+  overflow: hidden;
+  transition: all 2s ease-in-out;
+  background-color: white;
+}
+
+.collapse__text {
+  padding: 20px; /* только с дочерним элементом работает!!! */
+}
+
+.collapse__content_hide {
+  max-height: 0px;
+  border-color: transparent;
+  transition: all 1s ease;
+}

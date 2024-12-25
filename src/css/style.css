@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+div,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  border: none;
+  font-size: inherit;
+  outline: none;
+}
+
+body {
+  padding: 50px;
+  background-color: lightgrey;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+
+  background-color: #fff;
+}
